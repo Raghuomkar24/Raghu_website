@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects | Gururaghavendra</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Projects</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section>
+    <h2>Project Highlights</h2>
+    <ul>
+      <li><strong>Vocal-link</strong> – An assistance for the sign language in social media.</li>
+      <section id="projects">
+        <h2>My Projects</h2>
+      
+        <div class="project">
+          <h3>🔗 Vocal Link</h3>
+          <p>
+            Converting sign language into text and audio in real-time, it provides a powerful tool for individuals with hearing impairments to communicate seamlessly in both physical and digital spaces. With this app, they can engage in social media, participate in conversations, and express themselves just as easily as those without disabilities, breaking down the barriers that limit their ability to connect and be heard.
+          </p>
+          <ul>
+            <li><strong>Enhanced Communication:</strong>
+                Enables seamless communication between people who are deaf or hard of hearing and those who do not know sign language. 
+                Helps bridge the gap in communication in various settings (e.g., healthcare, education, customer service)</li>
+            <li><strong>Real-Time Recognition:</strong>
+                Real-time processing allows for immediate feedback and interpretation, making it practical for live interactions</li>
+            <li><strong>Non-Contact Technology:</strong>
+                Image-based sign language detection does not require physical contact, making it hygienic and suitable for various environments.
+                </li>
+            <li><strong>Scalable and Adaptable:</strong>
+                The system can be easily scaled to include multiple sign languages or can be trained with more diverse datasets to handle different gestures
+                 or signs</li>
+          </ul>
+          <section id="vocal-link-video">
+            <h2>Vocal Link Demo</h2>
+          
+            <video id="vocalVideo" width="100%" controls>
+              <source src="sign.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          
+            <button onclick="playVideo()" class="play-btn">▶ Play Demo</button>
+          </section>
+          <script>
+            function playVideo() {
+              const video = document.getElementById("vocalVideo");
+              video.play();
+            }
+          </script>
+          
+          
+          
+        </div>
+        <div class="project">
+            <h3>💻 CodeSync</h3>
+            <p>
+              CodeSync is a lightweight, real-time code sharing and synchronization tool built for speed and simplicity. It enables multiple developers to write and view code simultaneously across devices — perfect for quick sessions, interviews, or teaching.
+            </p>
+            <ul>
+              <li>Presenting a real-time collaborative coding platform designed to transform the way developers work together remotely</li>
+              <li>Platform allows multiple users to write, edit, and test code simultaneously in a shared environment, complete with a unified terminal.
+              </li>
+              <li>What sets it apart is the seamless integration of voice and video communication, making remote pair programming, tutoring, and team collaboration more interactive, efficient, and engaging</li>
+            </ul>
+            <!-- Optional: add GitHub or live demo links -->
+            
+          </div>
+          
+
+  <footer>
+    <p>&copy; 2025 Gururaghavendra</p>
+  </footer>
+</body>
+</html>
